@@ -50,9 +50,9 @@ img {
   border-radius: 4px;
 }
 .container {
-  max-width: 1152px;
+  max-width: 1158px;
   margin: 0 auto;
-  padding: 0 12px;
+  padding: 0 15px;
 }
 /* ==================== HEADER ==================== */
 .header {
@@ -237,23 +237,19 @@ img {
   column-gap: 24px;
 }
 .portfolio-item {
-  max-width: 358px;
-  border: 1px solid var(--cornflower);
+  max-width: 360px;
 }
-.portfolio-img {
-  margin-bottom: 32px;
+.portfolio-box {
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower);
+  border-top: none;
 }
 .partfolio-name {
   color: var(--navy-blue);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  margin-left: 16px;
   margin-bottom: 8px;
-}
-.portfolio-filter-name {
-  margin-left: 16px;
-  margin-bottom: 32px;
 }
 /* ====================  ==================== */
 /* ====================  ==================== */
