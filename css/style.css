@@ -8,16 +8,6 @@
   --cornflower: #e7e9fc;
   --cloud: #f4f4fd;
 }
-html {
-  box-sizing: border-box;
-}
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
 .link {
   text-decoration: none;
 }
@@ -41,9 +31,19 @@ body {
   letter-spacing: 0.04em;
   border: none;
 }
+.container {
+  width: 1152px;
+  padding: 0 12px;
+}
 /* ==================== HEADER ==================== */
 .header {
   background: #fff;
+}
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
 }
 .logo {
   text-transform: uppercase;
