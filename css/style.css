@@ -190,12 +190,12 @@ img {
 }
 .our-team-item {
   text-align: center;
+}
+.our-team-box {
+  padding: 32px 16px;
   background: #fff;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
-}
-.our-team-img {
-  margin-bottom: 32px;
 }
 .our-team-name {
   color: var(--navy-blue);
@@ -203,9 +203,6 @@ img {
   font-size: 20px;
   line-height: 1.2;
   margin-bottom: 8px;
-}
-.our-team-speciality {
-  margin-bottom: 32px;
 }
 /* ==================== Portfolio ==================== */
 .portfolio {
